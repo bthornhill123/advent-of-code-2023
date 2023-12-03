@@ -1,8 +1,8 @@
 build:
-	go build -o ./bin/advent
+	@go build -o ./bin/advent
 
 run: build
-	./bin/advent
+	@./bin/advent
 
 test:
-	go test ./...
+	@go test ./...
