@@ -8,7 +8,7 @@ import (
 
 func main() {
 	day := advent.One{}
-	err := day.PartOne()
+	err := day.PartTwo()
 	if err != nil {
 		fmt.Println("An error occurred: ", err)
 	}
