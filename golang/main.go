@@ -7,8 +7,14 @@ import (
 )
 
 func main() {
-	day := advent.One{}
-	err := day.PartTwo()
+	day := advent.Two{}
+
+	err := day.PartOne()
+	if err != nil {
+		fmt.Println("An error occurred: ", err)
+	}
+
+	err = day.PartTwo()
 	if err != nil {
 		fmt.Println("An error occurred: ", err)
 	}

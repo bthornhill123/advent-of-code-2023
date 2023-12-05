@@ -8,8 +8,7 @@ import (
 	"strings"
 )
 
-type One struct {
-}
+type One struct{}
 
 func (d One) PartOne() error {
 	file, err := os.Open("inputs/one.txt")
