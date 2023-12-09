@@ -7,13 +7,15 @@ import (
 )
 
 func main() {
-	day := advent.Two{}
+	day := advent.Three{}
 
+	fmt.Print("Part One -> ")
 	err := day.PartOne()
 	if err != nil {
 		fmt.Println("An error occurred: ", err)
 	}
 
+	fmt.Print("Part Two -> ")
 	err = day.PartTwo()
 	if err != nil {
 		fmt.Println("An error occurred: ", err)
