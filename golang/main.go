@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	day := advent.Five{}
+	day := advent.Six{}
 
 	fmt.Print("Part One -> ")
 	err := day.PartOne()
